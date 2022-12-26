@@ -7,12 +7,12 @@ const ProductDtls = ({handleCart}) => {
   return (
     <div className="container mt-5">
       <div className="row align-items-center">
-        <div className="col-xl-6 col-md-6">
+        <div className="col-xl-6 col-md-6 col-sm-12">
           <div className="productImg">
             <img src={Img} alt="notfound" />
           </div>
         </div>
-        <div className="col-xl-6 col-md-6">
+        <div className="col-xl-6 col-md-6 col-sm-12">
           <div className="productInfo">
             <p className="companyTitle">{data.companyName}</p>
             <h1>{data.productName}</h1>

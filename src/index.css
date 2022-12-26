@@ -68,3 +68,12 @@ button.deleteProduct:hover {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   padding: 35px 0;
 }
+
+@media (max-width: 792px) {
+  .productImg img {
+    width: 100%;
+}
+.addCart.d-flex {
+  margin-bottom: 20px;
+}
+}
